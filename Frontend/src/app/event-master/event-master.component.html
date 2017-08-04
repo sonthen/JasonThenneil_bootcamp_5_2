@@ -1,0 +1,79 @@
+<div class="container" style="background-color:rgb(184, 213, 221)">
+  <nav class="navbar navbar-default" role="navigation">
+    <div class="container">
+      <a class="navbar-brand" href="#">User Registration Form</a>
+    </div>
+  </nav>
+
+  <table class="table">
+    <tr>
+      <th>Name</th>
+      <td>
+        <div class="form-group">
+          <input type="text" class="form-control" [(ngModel)]="name" placeholder="Enter your name" aria-describedby="sizing-addon2">
+        </div>
+      </td>
+      <td class="col-md-3"></td>
+    </tr>
+  
+    <tr>
+      <th>Date</th>
+      <td>
+        <div class="form-group">
+          <input type="text" class="form-control" [(ngModel)]="date" placeholder="Enter date">
+        </div>
+      </td>
+      <td class="col-md-3"></td>
+    </tr>
+
+    <tr>
+    <th>Location</th>
+    <td>
+      <div class="form-group">
+        <input type="text" class="form-control" [(ngModel)]="location" placeholder="Enter Location" aria-describedby="sizing-addon2">
+      </div>
+    </td>
+    <td class="col-md-3"></td>
+    </tr>
+
+    <tr>
+    <th>Price</th>
+    <td>
+      <div class="form-group">
+        <input type="text" class="form-control" [(ngModel)]="price" placeholder="Enter Price" aria-describedby="sizing-addon2">
+      </div>
+    </td>
+    <td class="col-md-3"></td>
+    </tr>
+
+    <tr>
+    <th>Qty</th>
+    <td>
+      <div class="form-group">
+        <input type="text" class="form-control" [(ngModel)]="qty" placeholder="Enter Qty" aria-describedby="sizing-addon2">
+      </div>
+    </td>
+    <td class="col-md-3"></td>
+    </tr>
+
+    <tr>
+    <th>Description</th>
+    <td>
+      <div class="form-group">
+        <input type="text" class="form-control" [(ngModel)]="description" placeholder="Enter Description" aria-describedby="sizing-addon2">
+      </div>
+    </td>
+    <td class="col-md-3"></td>
+    </tr>
+
+    <tr>
+      <th></th>
+      <td></td>
+      <td class="col-md-5">
+        <button type="submit" (click)="addEvent()" class="btn btn-primary">Add</button>
+        
+        <!--<div id="dialog" title="Basic dialog">  halohalohlalhalhalhalhal </div>-->
+      </td>
+    </tr>
+  </table>
+</div>
